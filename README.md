@@ -13,7 +13,7 @@ Millions in underserved African regions suffer from preventable diseases due to 
 
 ## 📊 Dataset
 
-## Source: [https://www.kaggle.com/datasets/miltonmacgyver/symptom-based-disease-prediction-dataset/data](url)
+## Source: [https://www.kaggle.com/datasets/miltonmacgyver/symptom-based-disease-prediction-dataset/data](https://www.kaggle.com/datasets/miltonmacgyver/symptom-based-disease-prediction-dataset/data)
 
 | Description     | Value                                |
 |------------------|--------------------------------------|
