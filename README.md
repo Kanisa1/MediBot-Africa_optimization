@@ -66,27 +66,40 @@ The neural network architecture used includes:
 
 ---
 
+
+
+
 ## 📈 Discussion of Results
 
-Each training instance was designed to test a unique combination of optimization techniques:
+Each training instance tested a different combination of optimization techniques to improve model performance:
 
-- **Instance 1** served as the baseline, using no optimization — it reached a moderate accuracy but overfit quickly.
-- **Instance 2** delivered the highest performance among NN models by combining RMSprop, dropout, and early stopping.
-- **Instance 3** showed slower convergence and weaker results due to limited optimization, despite using L2 regularization.
-- **Instance 4** performed nearly as well as Instance 2 by combining Adam, L2, dropout, and a lower learning rate for stability.
-- **Instance 5 (Logistic Regression)** achieved 88.93% accuracy — strong performance for a simpler model, validating its suitability for clean binary datasets.
+- **Instance 1 (Baseline Neural Network)** used default settings without any optimization. While it achieved decent performance (**87.73% accuracy**), it showed signs of early overfitting and lacked regularization.
 
-### ✅ Best Neural Network:
-- **Instance 2 (RMSprop + Dropout + EarlyStopping)** with **0.8973 accuracy**
+- **Instance 2 (RMSprop + Dropout + EarlyStopping)** combined an adaptive optimizer with dropout and early stopping. It significantly improved generalization and achieved **89.60% accuracy**, confirming the impact of adding regularization.
 
-### 🥇 Best Overall Model:
-- **Logistic Regression** (Instance 5) with **0.8893 accuracy**
+- **Instance 3 (SGD + L2 Regularization)** underperformed compared to others. Despite using L2, the lack of early stopping or dropout, along with SGD's slower convergence, led to **84.00% accuracy** and the weakest F1-score.
 
-### 🔍 Takeaway:
-- Neural networks perform best when optimized with **multiple techniques**.
-- Classical models like **Logistic Regression** remain strong baselines, especially for structured, clean data.
+- **Instance 4 (Adam + Dropout + L2 + EarlyStopping)** achieved the **best overall performance** with **90.00% accuracy**. This combination stabilized learning, prevented overfitting, and benefited from the lower learning rate. The training and validation loss curves showed smooth convergence, making this model the most robust.
+
+- **Instance 5 (Logistic Regression)**, though a classical ML model, reached **88.93% accuracy**, confirming that linear models still perform very well on structured binary feature sets. It also had balanced precision and recall.
 
 ---
+
+### ✅ Best Neural Network:
+**Instance 4** – *Adam + Dropout + L2 + EarlyStopping* with **90.00% accuracy**
+
+### 🥇 Best Overall Model:
+**Instance 4** – *Optimized Neural Network* outperformed all, including Logistic Regression
+
+---
+
+### 🔍 Takeaway:
+
+- Neural networks perform **best when layered with multiple optimization strategies**, especially combinations like **L2 + Dropout + Adaptive Optimizers (e.g., Adam)** and **EarlyStopping**.
+- While classical models like **Logistic Regression** are strong and interpretable, optimized deep learning models can achieve **higher generalization** — especially when designed carefully.
+
+
+
 
 ## 🔬 Error Analysis
 
