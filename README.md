@@ -46,7 +46,8 @@ The neural network architecture used includes:
 - **Dropout**: 0.3 for regularization
 - **Output Layer**: 3 neurons (softmax) for multiclass prediction
 
-📷 See [diagrams/model_architecture.png](./diagrams/model_architecture.png)
+![Model Architecture](./diagrams/model_architecture.png)
+
 
 ---
 
