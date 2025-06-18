@@ -1,5 +1,5 @@
 
-# 🧠 MediBot Africa: Predicting Malaria, Typhoid, and Pneumonia from Symptoms
+# MediBot Africa: Predicting Malaria, Typhoid, and Pneumonia from Symptoms
 
 ## 🎯 Objective
 This project explores the implementation of machine learning models with optimization techniques such as regularization, dropout, early stopping, and learning rate adjustments. The goal is to build accurate models that support early diagnosis of common diseases based on symptoms — improving convergence speed, efficiency, and generalization performance.
@@ -38,7 +38,7 @@ All 5 trained models are saved in the `/saved_models` directory.
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 The neural network architecture used includes:
 - **Input Layer**: 15 features
@@ -50,17 +50,18 @@ The neural network architecture used includes:
 
 ---
 
-## 🧮 Optimization Comparison Table
+## 📊 Optimization Summary Table (Neural Network Instances)
 
-| Instance | Optimizer     | Regularizer     | LR     | Early Stop | Dropout | Layers | Accuracy | F1 Score | Recall | Precision |
-|----------|---------------|-----------------|--------|------------|---------|--------|----------|----------|--------|-----------|
-| 1        | Default (Adam)| None            | -      | ❌ No       | ❌ No    | 3      | 0.8760   | 0.8760   | 0.8760 | 0.8760    |
-| 2        | RMSprop       | None            | 0.001  | ✅ Yes      | ✅ 0.3   | 3      | 0.8973   | 0.8972   | 0.8973 | 0.8974    |
-| 3        | SGD           | L2 (0.01)       | 0.001  | ❌ No       | ❌ No    | 3      | 0.8680   | 0.8674   | 0.8680 | 0.8691    |
-| 4        | Adam          | L2 + Dropout    | 0.0005 | ✅ Yes      | ✅ 0.3   | 3      | 0.8933   | 0.8931   | 0.8933 | 0.8935    |
-| 5        | -             | -               | -      | -          | -       | -      | 0.8893   | 0.8890   | 0.8893 | 0.8892    |
+| Instance | Optimizer  | Regularizer | Epochs | Early Stopping | Layers | Dropout | Learning Rate | Accuracy | Loss    | F1 Score | Recall | Precision |
+|----------|------------|-------------|--------|----------------|--------|---------|----------------|----------|---------|----------|--------|-----------|
+| 1        | Default    | None        | 20     | ❌ No           | 3      | ❌ No    | -              | 0.8773   | ~0.38   | 0.8772   | 0.8773 | 0.8775    |
+| 2        | RMSprop    | None        | 20     | ✅ Yes          | 3      | ✅ 0.3   | 0.001          | 0.8960   | ~0.31   | 0.8958   | 0.8960 | 0.8961    |
+| 3        | SGD        | L2 (0.01)   | 20     | ❌ No           | 3      | ❌ No    | 0.001          | 0.8400   | ~0.48   | 0.8390   | 0.8400 | 0.8413    |
+| 4        | Adam       | L2 (0.01)   | 20     | ✅ Yes          | 3      | ✅ 0.3   | 0.0005         | 0.9000   | ~0.29   | 0.8997   | 0.9000 | 0.9003    |
+| 5*       | -          | -           | -      | -              | -      | -       | -              | 0.8893   | N/A     | 0.8890   | 0.8893 | 0.8892    |
 
-> ✅ *Instance 5 refers to the Logistic Regression model (non-NN), tuned with max_iter=200, C=1.0, solver='liblinear'*
+> *Instance 5 is a Logistic Regression model (non-NN). Loss is not applicable.
+
 
 ---
 
