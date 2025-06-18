@@ -11,6 +11,15 @@ Millions in underserved African regions suffer from preventable diseases due to 
 
 ---
 
+## 🎥 Video Presentation
+
+🎬 [Link to 5-Minute Presentation Video](https://drive.google.com/file/d/1wp178XsKSNzvfhy45Y8bEMFU6PnUQKXw/view?usp=sharing)
+
+* Covers: Dataset overview, optimization techniques, result analysis, and final conclusions.
+
+---
+
+
 ## 📊 Dataset
 
 ## Source: [https://www.kaggle.com/datasets/miltonmacgyver/symptom-based-disease-prediction-dataset/data](https://www.kaggle.com/datasets/miltonmacgyver/symptom-based-disease-prediction-dataset/data)
@@ -158,15 +167,6 @@ MediBot-Africa/
 ```
 
 ---
-
-## 🎥 Video Presentation
-
-🎬 [Link to 5-Minute Presentation Video](https://drive.google.com/file/d/1wp178XsKSNzvfhy45Y8bEMFU6PnUQKXw/view?usp=sharing)
-
-* Covers: Dataset overview, model architectures, optimization techniques, result analysis, and final conclusions.
-
----
-
 
 
 ## 🙌 Author
