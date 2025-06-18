@@ -13,9 +13,11 @@ Millions in underserved African regions suffer from preventable diseases due to 
 
 ## 📊 Dataset
 
+## Source: [https://www.kaggle.com/datasets/miltonmacgyver/symptom-based-disease-prediction-dataset/data](url)
+
 | Description     | Value                                |
 |------------------|--------------------------------------|
-| Source           | MediBot Symptom Dataset              |
+| Source           | Kaggle              |
 | Total Samples    | 4,998                                |
 | Features         | 15 binary symptoms                   |
 | Target Classes   | 3 (Malaria, Typhoid, Pneumonia)      |
