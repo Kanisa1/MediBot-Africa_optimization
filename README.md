@@ -161,18 +161,13 @@ MediBot-Africa/
 
 ## 🎥 Video Presentation
 
-🎬 [Link to 5-Minute Presentation Video](https://your-video-link.com)
+🎬 [Link to 5-Minute Presentation Video]([https://your-video-link.com](https://drive.google.com/file/d/1wp178XsKSNzvfhy45Y8bEMFU6PnUQKXw/view?usp=sharing))
 
 * Covers: Dataset overview, model architectures, optimization techniques, result analysis, and final conclusions.
 
 ---
 
-## ✅ Submission Instructions
 
-* 🔗 Submit **GitHub repo link** on Canvas (**Attempt 1**)
-* 📦 Submit **Zipped folder of repo** on Canvas (**Attempt 2**)
-
----
 
 ## 🙌 Author
 
@@ -180,8 +175,5 @@ Prepared by **Kanisa Rebecca Majok Thiak**
 BSc Software Engineering, ALU Kigali
 Machine Learning Optimization Project – 2025
 
-```
-
----
 
 
