@@ -161,7 +161,7 @@ MediBot-Africa/
 
 ## 🎥 Video Presentation
 
-🎬 [Link to 5-Minute Presentation Video]([https://your-video-link.com](https://drive.google.com/file/d/1wp178XsKSNzvfhy45Y8bEMFU6PnUQKXw/view?usp=sharing))
+🎬 [Link to 5-Minute Presentation Video](https://drive.google.com/file/d/1wp178XsKSNzvfhy45Y8bEMFU6PnUQKXw/view?usp=sharing)
 
 * Covers: Dataset overview, model architectures, optimization techniques, result analysis, and final conclusions.
 
